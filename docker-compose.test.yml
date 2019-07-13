@@ -1,0 +1,15 @@
+version: "3"
+services:
+    client:
+        image: dtwilliams10.com
+        restart: always
+        container_name: dtwilliams10.com
+        ports:
+            - "3000:3002"
+        environment:
+            LETSENCRYPT_EMAIL: david.williams110913@gmail.com
+            LETSENCRYPT_HOST: test.dtwilliams10.com
+            VIRTUAL_HOST: test.dtwilliams10.com
+        volumes:
+            - ./client:/client
+            - /client/node_modules
