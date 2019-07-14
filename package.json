@@ -33,6 +33,11 @@
       "last 1 safari version"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "devDependencies": {
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4"
