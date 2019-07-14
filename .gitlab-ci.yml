@@ -21,7 +21,7 @@ test deploy job:
     #- docker network disconnect dtwilliams10com_default proxy
     - docker-compose -f "docker-compose.test.yml" down
     - docker-compose -f "docker-compose.test.yml" up -d --build
-    - docker network connect dtwilliams10 proxy
+    - docker network connect dtwilliams10com_default proxy
   environment:
     name: staging
     url: https://test.dtwilliams10.com
