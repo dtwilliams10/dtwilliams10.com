@@ -10,7 +10,7 @@ test build job:
   tags: 
     - develop
   script:
-    - docker build -f test.Dockerfile -t lhms-app .
+    - docker build -f test.Dockerfile -t dtwilliams10.com .
 
 test deploy job:
   image:
@@ -18,10 +18,10 @@ test deploy job:
     entrypoint: ["/bin/sh", "-c"]
   stage: deploy
   script:
-    - docker network disconnect dtwilliams10.com_webappnetwork proxy
+    - docker network disconnect dtwilliams10com_default proxy
     - docker-compose -f "docker-compose.test.yml" down
     - docker-compose -f "docker-compose.test.yml" up -d --build
-    - docker network connect dtwilliams10.com_webappnetwork proxy
+    - docker network connect dtwilliams10 proxy
   environment:
     name: staging
     url: https://test.dtwilliams10.com
@@ -38,7 +38,7 @@ prod build job:
     tags: 
       - production
     script:
-      - docker build -f prod.Dockerfile -t lhms-app .
+      - docker build -f prod.Dockerfile -t dtwilliams10.com .
 
 prod deploy job:
  image:
@@ -46,10 +46,9 @@ prod deploy job:
   entrypoint: ["/bin/sh", "-c"]
  stage: deploy
  script:
-  - docker network disconnect dtwilliams10.com_webappnetwork proxy
   - docker-compose -f "docker-compose.prod.yml" down
   - docker-compose -f "docker-compose.prod.yml" up -d --build
-  - docker network connect dtwilliams10.com_webappnetwork proxy
+  - docker network connect dtwilliams10com_default proxy
  environment:
   name: production
   url: https://dtwilliams10.com
