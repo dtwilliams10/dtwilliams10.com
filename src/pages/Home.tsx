@@ -1,12 +1,14 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+//import MenuBar from '../components/AppBar'
 
 class HomePage extends Component {
     render() {
-        return(
-            <div>
-                This is a test home page for dtwilliams10.com
+        return (
+            <div className="App-header">
+              
+              This is a test page for dtwilliams10.com
             </div>
-        ); 
+        );
     }
 }
 
