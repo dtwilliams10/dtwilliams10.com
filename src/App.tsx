@@ -1,6 +1,5 @@
 import React from 'react';
 import HomePage from './pages/Home';
-import AboutPage from './pages/About';
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 import './App.css';
 
@@ -20,7 +19,6 @@ export default function App() {
         </nav>
       </div>
       <HomePage/>
-      <AboutPage/>
     </Router>
   );
 }
