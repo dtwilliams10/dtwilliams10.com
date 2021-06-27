@@ -7,7 +7,7 @@ test build job:
   stage: build
   only:
     - develop@dtwilliams10/dtwilliams10.com
-  tags: 
+  tags:
     - develop
   script:
     - docker build -f test.Dockerfile -t dtwilliams10.com .

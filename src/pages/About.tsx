@@ -5,8 +5,7 @@ class AboutPage extends Component {
     render() {
         return (
             <div className="App-header">
-              
-              This is a test page for dtwilliams10.com
+              This is the About page for dtwilliams10.com
             </div>
         );
     }
