@@ -1,11 +1,14 @@
 import React from 'react';
-import HomePage from './pages/Home';
+import { BrowserRouter as Router, Link } from 'react-router-dom'
 import './App.css';
+import AboutPage from './pages/About';
+import HomePage from './pages/Home';
 
-function App() {
+export default function App() {
   return (
-      <HomePage/>
+    <Router>
+      <Link to="/" component={HomePage}>Home</Link>
+      <Link to="/about" component={AboutPage}>About</Link>
+    </Router>
   );
 }
-
-export default App;
