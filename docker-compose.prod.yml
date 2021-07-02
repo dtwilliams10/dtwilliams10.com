@@ -4,7 +4,6 @@ services:
         image: dtwilliams10.com
         restart: always
         container_name: dtwilliams10.com
-        network_mode: bridge
         ports:
             - "3001:80"
         environment:
@@ -14,3 +13,4 @@ services:
         volumes:
             - ./client:/client
             - /client/node_modules
+        network_mode: bridge
