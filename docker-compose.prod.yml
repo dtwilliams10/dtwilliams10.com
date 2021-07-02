@@ -13,3 +13,4 @@ services:
         volumes:
             - ./client:/client
             - /client/node_modules
+        network_mode: bridge
