@@ -6,7 +6,7 @@ ENV NODE_ENV=production
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
 COPY package.json /usr/src/app/package.json
 RUN yarn install --network-timeout 100000
-RUN yarn install react-scripts -g --silent
+RUN yarn global add react-scripts
 COPY . /usr/src/app
 RUN yarn build
 
