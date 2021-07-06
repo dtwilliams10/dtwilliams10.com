@@ -5,7 +5,7 @@ class HomePage extends Component {
     render() {
         return (
             <div className="App-header">
-              This is a test page for dtwilliams10.com
+                This is the home page for dtwilliams10.com
             </div>
         );
     }
