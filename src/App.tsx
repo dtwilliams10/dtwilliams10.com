@@ -10,6 +10,7 @@ export default function App() {
     <Router>
       <NavBar/>
       <Switch>
+        <Route path="/contact" />
         <Route path="/about" component={AboutPage}/>
         <Route path="/" component={HomePage}/>
       </Switch>
