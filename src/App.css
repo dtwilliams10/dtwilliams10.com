@@ -18,3 +18,26 @@
 .App-link {
   color: #61dafb;
 }
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar > li {
+  width: 100px;
+  margin: 50px;
+  text-align: center;
+  flex-direction: column;
+  color: black;
+}
+
+/*Removing the underline from all of the links.*/
+a, a.visited, a.hover, a.active {
+  text-decoration: none;
+  color: black;
+}
+
+/*Removing bullet points from lists*/
+li {list-style: none;}
+
