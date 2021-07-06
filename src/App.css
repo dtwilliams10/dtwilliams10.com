@@ -18,3 +18,17 @@
 .App-link {
   color: #61dafb;
 }
+
+.navbar {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.navbar > NavLink {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  flex-direction: column;
+}
