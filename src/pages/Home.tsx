@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
-//import MenuBar from '../components/AppBar'
+import React from 'react';
 
-class HomePage extends Component {
-    render() {
+function HomePage() {
         return (
             <div className="App-header">
-              This is a test page for dtwilliams10.com
+                This is the home page for dtwilliams10.com
             </div>
         );
     }
-}
 
 export default HomePage;
