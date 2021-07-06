@@ -6,9 +6,9 @@ class NavBar extends Component {
             <div >
                 <nav >
                     <ul className="navbar">
-                        <Link to="/">Home</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/contact">Contact</Link>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </nav>
             </div>
