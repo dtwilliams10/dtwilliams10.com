@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class AboutPage extends Component {
-    render() {
+function AboutPage()  {
         return (
             <div className="App-header">
                 This is the about page for dtwilliams10.com
             </div>
         );
     }
-}
 
 export default AboutPage;
