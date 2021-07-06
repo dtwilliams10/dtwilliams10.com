@@ -32,3 +32,6 @@
   text-decoration: none;
   flex-direction: column;
 }
+
+/*Removing the underline from all of the links.*/
+a { text-decoration: none;}
