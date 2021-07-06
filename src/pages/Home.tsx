@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import MenuBar from '../components/AppBar'
 
 class HomePage extends Component {
     render() {
