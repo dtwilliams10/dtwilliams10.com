@@ -1,18 +1,40 @@
 .App {
   background-color: #132b5a;
   color: white;
-  text-align: center;
+  /*text-align: center;*/
+}
+
+/*Removing the underline from all of the links.*/
+a, a.visited, a.hover, a.active {
+  text-decoration: none;
+  color: black;
+}
+
+/*Removing bullet points from lists*/
+li {
+  list-style: none;
 }
 
 .App-header {
   background-color: #132b5a;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header > .flex-container {
+  align-content: center;
+}
+
+.App-header > .flex-container > div {
+  display: flex;
+}
+
+.App-header > .flex-container > div > div {
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid white;
+  text-align: center;
 }
 
 .App-link {
@@ -38,12 +60,4 @@ nav {
   color: black;
 }
 
-/*Removing the underline from all of the links.*/
-a, a.visited, a.hover, a.active {
-  text-decoration: none;
-  color: black;
-}
-
-/*Removing bullet points from lists*/
-li {list-style: none;}
 
