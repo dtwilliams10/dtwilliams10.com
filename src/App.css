@@ -33,7 +33,6 @@ li {
 .App-header > .flex-container > div > div {
   width: 50vw;
   height: 50vh;
-  border: 1px solid white;
   text-align: center;
 }
 
