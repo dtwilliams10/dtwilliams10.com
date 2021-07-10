@@ -1,4 +1,5 @@
 import React from 'react';
+import headshot from './../images/IMG_2332.jpg'
 
 function HomePage() {
         return (
@@ -6,10 +7,11 @@ function HomePage() {
                 <div className="flex-container">
                     <div>
                         <div>
-                            Top Block Left
+                            <img src={headshot} alt="Tyler Williams - Software Developer" height="450vh" width="450vw"/>
                         </div>
                         <div>
-                            Top Block Right
+                            <h2>Tyler Williams - Software Developer</h2>
+                            <p></p>
                         </div>
                     </div>
                 </div>
