@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/react": "^1.6.5",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
     "@material-ui/core": "^4.2.0",
     "@types/jest": "^24.0.15",
     "@types/react": "^16.8.23",
@@ -10,6 +13,8 @@
     "@types/react-router-dom": "^5.1.7",
     "@types/react-swipeable-views": "^0.13.0",
     "commitizen": "^3.1.1",
+    "framer-motion": "^4",
+    "node-sass": "^6.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.2.0",
