@@ -1,12 +1,7 @@
-body {
+.body {
+  background-image: url("images/background.webp");
   background-color: lightgrey;
-  background-image: url("images/background.jpg")
 }
-
-.App {
-  background-color: #132b5a;
-  color: lightgrey;
-  }
 
 /*Removing the underline from all of the links.*/
 a, a.visited, a.hover, a.active {
@@ -24,20 +19,6 @@ li {
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-header > .flex-container {
-  align-content: center;
-}
-
-.App-header > .flex-container > div {
-  display: flex;
-}
-
-.App-header > .flex-container > div > div {
-  width: 50vw;
-  height: 50vh;
-  text-align: center;
 }
 
 .App-link {
