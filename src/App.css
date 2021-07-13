@@ -1,16 +1,22 @@
-.App {
-  background-color: #132b5a;
-  color: white;
-  text-align: center;
+.body {
+  background-image: url("images/background.webp");
+  background-color: lightgrey;
+}
+
+/*Removing the underline from all of the links.*/
+a, a.visited, a.hover, a.active {
+  text-decoration: none;
+  color: black;
+}
+
+/*Removing bullet points from lists*/
+li {
+  list-style: none;
 }
 
 .App-header {
   background-color: #132b5a;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -30,6 +36,10 @@ nav {
   justify-content: center;
 }
 
+nav > h2 {
+  text-align: left;
+}
+
 .navbar > li {
   width: 100px;
   margin: 50px;
@@ -38,12 +48,4 @@ nav {
   color: black;
 }
 
-/*Removing the underline from all of the links.*/
-a, a.visited, a.hover, a.active {
-  text-decoration: none;
-  color: black;
-}
-
-/*Removing bullet points from lists*/
-li {list-style: none;}
 
