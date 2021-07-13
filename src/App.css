@@ -1,8 +1,12 @@
+body {
+  background-color: lightgrey;
+  background-image: url("images/background.jpg")
+}
+
 .App {
   background-color: #132b5a;
-  color: white;
-  /*text-align: center;*/
-}
+  color: lightgrey;
+  }
 
 /*Removing the underline from all of the links.*/
 a, a.visited, a.hover, a.active {
