@@ -7,14 +7,13 @@ function HomePage() {
         return (
             <VStack>
                 <Box>
-                    <Heading as="h1">
-                    Welcome to the home page of Tyler Williams - Software
-                    Developer
+                   <Heading as="h1">
+                            Tyler Williams - Software Developer
                     </Heading>
                     <Heading as="h3">Masters of Science in CyberSecurity - UMGC Class of 2016</Heading>
-                    <Center>
+                    <Center>    
                         <Image
-                        boxSize="600px"
+                        boxSize="300px"
                         borderRadius="full"
                         objectFit="cover"
                         src={photo}

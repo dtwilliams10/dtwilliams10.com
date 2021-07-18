@@ -1,6 +1,9 @@
 .body {
   background-image: url("images/background.webp");
   background-color: lightgrey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /*Removing the underline from all of the links.*/
@@ -26,26 +29,7 @@ li {
 }
 
 .nav {
-  background-color: rgb(108 109 129);
+  background-color: initial;
   font-size: calc(10px + 2vmin);
   overflow: hidden;
 }
-
-.navbar {
-  display: flex;
-  justify-content: center;
-}
-
-nav > h2 {
-  text-align: left;
-}
-
-.navbar > li {
-  width: 100px;
-  margin: 50px;
-  text-align: center;
-  flex-direction: column;
-  color: black;
-}
-
-
