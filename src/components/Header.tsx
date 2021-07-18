@@ -5,7 +5,7 @@ import { Link, HStack } from '@chakra-ui/react';
 function Header() {
         return (
                 <div className="nav">
-                    <HStack spacing={6}>
+                    <HStack spacing={8}>
                         <Link as={RouterLink} to="/">Home</Link>
                         <Link as={RouterLink} to="/about">About</Link>
                         <Link as={RouterLink} to="/projects">Projects</Link>
