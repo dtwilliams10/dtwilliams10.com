@@ -13,7 +13,6 @@ function App() {
     <div className="body">
       <Router>
         <Header/>
-          
             <Switch>
               <Route path="/projects" component={ProjectPage}/>
               <Route path="/contact" component={ContactPage}/>
