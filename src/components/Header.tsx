@@ -5,6 +5,7 @@ function Header() {
         return (
                 <div className="nav">
                     <HStack spacing={6}>
+                        <br/>
                         <Link href="#Home">Home</Link>
                         <Link href="#About">About</Link>
                         <Link href="#Projects">Projects</Link>
