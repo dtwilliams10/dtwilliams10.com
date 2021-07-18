@@ -1,16 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, HStack } from '@chakra-ui/react';
 
 function Header() {
         return (
-            <nav>
-                <ul className="navbar">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/projects">Projects</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                </ul>
-            </nav>
+                <div className="nav">
+                    <HStack spacing={8}>
+                        <br/>
+                        <Link to="/">Home</Link>
+                        <Link to="/about">About</Link>
+                        <Link to="/projects">Projects</Link>
+                        <Link to="/contact">Contact</Link>
+                    </HStack>
+                </div>
             );
     }
 
