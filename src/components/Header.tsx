@@ -5,10 +5,10 @@ function Header() {
         return (
                 <div className="nav">
                     <HStack spacing={6}>
-                        <Link to="/">Home</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link href="#Home">Home</Link>
+                        <Link href="#About">About</Link>
+                        <Link href="#Projects">Projects</Link>
+                        <Link href="#Contact">Contact</Link>
                     </HStack>
                 </div>
             );

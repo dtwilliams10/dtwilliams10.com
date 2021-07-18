@@ -4,7 +4,7 @@ import photo from './../images/IMG2332.jpg'
 
 function HomePage() {
         return (
-            <div className="App-body">
+            <div className="App-body" id="Home">
             <VStack>
                 <Box>
                 <Center>    
