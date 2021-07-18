@@ -4,7 +4,7 @@ import photo from './../images/IMG2332.jpg'
 
 function HomePage() {
         return (
-            <>
+            <div className="App-body">
             <VStack>
                 <Box>
                 <Center>    
@@ -21,7 +21,7 @@ function HomePage() {
                     </Heading>
                 </Box>
             </VStack> 
-          </>
+          </div>
         );
     }
 

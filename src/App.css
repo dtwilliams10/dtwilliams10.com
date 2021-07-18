@@ -18,14 +18,10 @@ li {
   list-style: none;
 }
 
-.App-header {
+.App-body {
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .nav {
