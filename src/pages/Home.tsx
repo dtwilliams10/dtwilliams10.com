@@ -24,6 +24,9 @@ function HomePage() {
             <Center>
                 <Text>I am a software developer and systems administrator from Southern Maryland.</Text>
             </Center>
+            <Center>
+                <Text>Software Development. Systems Administration. Satisfied Customers.</Text>
+            </Center>
           </div>
         );
     }
