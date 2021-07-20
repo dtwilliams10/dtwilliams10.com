@@ -20,9 +20,9 @@ function HomePage() {
                         Tyler Williams
                     </Heading>
                     <br/>
-                    <Heading as="h3" size="md">
+                    <Text>
                         Full Stack Developer
-                    </Heading>
+                    </Text>
             </VStack> 
             <br/>
             <Center>
