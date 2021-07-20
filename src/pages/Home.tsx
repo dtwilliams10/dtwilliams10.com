@@ -16,6 +16,7 @@ function HomePage() {
                         />
                     </Center>
                     <br/>
+                    <br/>
                     <Heading as="h1">
                         Tyler Williams
                     </Heading>
