@@ -16,15 +16,15 @@ function HomePage() {
                         />
                     </Center>
                     <br/>
-                    <br/>
                     <Heading as="h1">
                         Tyler Williams
                     </Heading>
                     <br/>
-                    <Text>
+                    <Text fontSize="3xl">
                         Full Stack Developer
                     </Text>
             </VStack> 
+            <br/>
             <Center>
                 <Text>SOFTWARE DEVELOPMENT - SYTEMS ADMINISTRATION - SATISFIED CUSTOMERS</Text>
             </Center>
