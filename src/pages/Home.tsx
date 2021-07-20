@@ -1,4 +1,4 @@
-import { Image, Box, Heading, VStack, Center, Text} from '@chakra-ui/react';
+import { Image, Heading, VStack, Center, Text} from '@chakra-ui/react';
 import React from 'react';
 import headshot from './../images/IMG2332.jpg'
 
@@ -6,7 +6,6 @@ function HomePage() {
         return (
             <div className="App-body">
             <VStack>
-                <Box>
                     <Center>    
                         <Image
                         boxSize="300px"
@@ -16,14 +15,12 @@ function HomePage() {
                         alt="Tyler Williams - Software Developer"
                         />
                     </Center>
+                    <br/>
                     <Heading as="h1">
-                            Tyler Williams - Software Developer
+                        Tyler Williams - Full Stack Developer
                     </Heading>
-                </Box>
             </VStack> 
-            <Center>
-                <Text>I am a software developer and systems administrator from Southern Maryland.</Text>
-            </Center>
+            <br/>
             <Center>
                 <Text>Software Development. Systems Administration. Satisfied Customers.</Text>
             </Center>
