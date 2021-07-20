@@ -1,33 +1,33 @@
-import { Image, Box, Heading, UnorderedList, ListItem, VStack, Center } from '@chakra-ui/react';
-import { AddIcon } from '@chakra-ui/icons'
+import { Image, Box, Heading, VStack, Center, Text} from '@chakra-ui/react';
 import React from 'react';
-import photo from './../images/IMG2332.jpg'
+import headshot from './../images/IMG2332.jpg'
 
 function HomePage() {
         return (
+            <div className="App-body">
             <VStack>
                 <Box>
-                    <Heading as="h1">
-                    Welcome to the home page of Tyler Williams - Software
-                    Developer
-                    </Heading>
-                    <Heading as="h3">Masters of Science in CyberSecurity - UMGC Class of 2016</Heading>
-                    <Center>
+                    <Center>    
                         <Image
-                        boxSize="600px"
+                        boxSize="300px"
                         borderRadius="full"
                         objectFit="cover"
-                        src={photo}
+                        src={headshot}
                         alt="Tyler Williams - Software Developer"
                         />
                     </Center>
+                    <Heading as="h1">
+                            Tyler Williams - Software Developer
+                    </Heading>
                 </Box>
-                <UnorderedList>
-                    <ListItem><AddIcon/> Driven</ListItem>
-                    <ListItem><AddIcon/> Dependable</ListItem>
-                    <ListItem><AddIcon/> Determined</ListItem>
-                </UnorderedList>
-            </VStack>
+            </VStack> 
+            <Center>
+                <Text>I am a software developer and systems administrator from Southern Maryland.</Text>
+            </Center>
+            <Center>
+                <Text>Software Development. Systems Administration. Satisfied Customers.</Text>
+            </Center>
+          </div>
         );
     }
 
