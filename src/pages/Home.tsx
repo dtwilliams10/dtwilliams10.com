@@ -25,7 +25,6 @@ function HomePage() {
                         Full Stack Developer
                     </Text>
             </VStack> 
-            <br/>
             <Center>
                 <Text>SOFTWARE DEVELOPMENT - SYTEMS ADMINISTRATION - SATISFIED CUSTOMERS</Text>
             </Center>
