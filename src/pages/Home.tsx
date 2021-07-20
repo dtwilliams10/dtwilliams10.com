@@ -17,12 +17,16 @@ function HomePage() {
                     </Center>
                     <br/>
                     <Heading as="h1">
-                        Tyler Williams - Full Stack Developer
+                        Tyler Williams
+                    </Heading>
+                    <br/>
+                    <Heading as="h3">
+                        Full Stack Developer
                     </Heading>
             </VStack> 
             <br/>
             <Center>
-                <Text>Software Development. Systems Administration. Satisfied Customers.</Text>
+                <Text>SOFTWARE DEVELOPMENT - SYTEMS ADMINISTRATION - SATISFIED CUSTOMERS</Text>
             </Center>
           </div>
         );
