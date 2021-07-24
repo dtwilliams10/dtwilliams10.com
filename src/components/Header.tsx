@@ -7,10 +7,10 @@ function Header() {
                 <div className="nav">
                     <HStack spacing={8}>
                         <br/>
-                        <Link as={RouterLink} to="/">Home</Link>
-                        <Link as={RouterLink} to="/about">About</Link>
-                        <Link as={RouterLink} to="/projects">Projects</Link>
-                        <Link as={RouterLink} to="/contact">Contact</Link>
+                        <Link _hover={{ 'text-decoration': 'none' }} as={RouterLink} to="/">Home</Link>
+                        <Link _hover={{ 'text-decoration': 'none' }} as={RouterLink} to="/about">About</Link>
+                        <Link _hover={{ 'text-decoration': 'none' }} as={RouterLink} to="/projects">Projects</Link>
+                        <Link _hover={{ 'text-decoration': 'none' }} as={RouterLink} to="/contact">Contact</Link>
                     </HStack>
                 </div>
             );
