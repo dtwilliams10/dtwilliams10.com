@@ -5,6 +5,7 @@ import { Link, HStack } from '@chakra-ui/react';
 function Header() {
         return (
                 <div className="nav">
+                    {/* TODO: Need to fix background color issue when clicking a link*/} 
                     <HStack spacing={8}>
                         <br/>
                         <Link _hover={{ 'text-decoration': 'none' }} as={RouterLink} to="/">Home</Link>
