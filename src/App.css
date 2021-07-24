@@ -1,3 +1,9 @@
+/*Removing the underline from all of the links.*/
+Link, a, a.visited, a.hover, a.active {
+  text-decoration: none;
+  color: black;
+}
+
 .body {
   background-image: url("images/background.webp");
   background-color: lightgrey;
@@ -6,12 +12,6 @@
   background-position: center;
   overflow: hidden;
   font-family: monospace;
-}
-
-/*Removing the underline from all of the links.*/
-a, a.visited, a.hover, a.active {
-  text-decoration: none;
-  color: black;
 }
 
 /*Removing bullet points from lists*/
