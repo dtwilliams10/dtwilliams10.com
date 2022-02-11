@@ -15,7 +15,7 @@
     "@types/react-swipeable-views": "^0.13.0",
     "commitizen": "^3.1.1",
     "framer-motion": "^4",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.2.0",
